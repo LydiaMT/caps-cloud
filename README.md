@@ -83,6 +83,13 @@ Amazon Simple Queue Services:
   - run `node driver-2.js` to take remaining deliveries out of to the queue
 
 ## Data Architecture
-![UML](uml.jpg)
+![UML](img/uml.jpg)
 
-## Sources, Resources, & References
+### Vendor adding packages to the queue
+![UML](img/vendor.png)
+
+### Driver 1 picking up packages from the queue
+![UML](img/driver1.png)
+
+### Driver 2 picking up packages from the queue
+![UML](img/driver2.png)
