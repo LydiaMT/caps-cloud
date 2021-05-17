@@ -33,14 +33,3 @@ setInterval( async () => {
   })
   .catch(console.error);
 }, 5000 )
-
-
-
-  // message ID & message duplicaiton ID
-
-// const payload = {
-//   Message: JSON.stringify(data),
-//   TopicArn: sns_topic,
-//   MessageGroupId:'123',
-//   MessageDeduplicationId:faker.datatype.uuid()
-// };
